@@ -26,9 +26,9 @@ Notis auto-updates via Sparkle. Once installed, updates are applied automaticall
 
 ## What Is Notis?
 
-Notis connects your calendar to your notes. Create meeting notes directly from calendar events, write in markdown with live inline rendering, and aggregate tasks across every note you've ever written.
+Notis makes it easy to create notes for calendar events, write in markdown with live inline rendering, and aggregate tasks across every note.
 
-**The core workflow:** You're in a meeting, you take notes, you assign tasks with `@mentions` and `#topics`, and later you can instantly answer *"What are all outstanding items for @sarah?"* across your entire vault.
+**The core workflow:** You're in a meeting, you take notes, create tasks with `@mentions` and `#topics`, and later you can instantly answer *"What are all outstanding items for @sarah or #AnnualRetreat?"* across your entire vault.
 
 ---
 
@@ -42,15 +42,15 @@ Write in markdown with real-time syntax highlighting. Syntax characters dim when
   <img src="https://github.com/daSkier/notis-releases/raw/main/screenshots/editor-light.png" width="700" alt="Markdown editor with live rendering">
 </p>
 
-- Inline tokens: `@mentions` (blue), `#topics` (purple), `due:dates` (orange), `[[wiki-links]]` (cyan)
+- Inline tokens: `@mentions`, `#topics`, `due:dates`, `[[wiki-links]]`
 - Interactive checkboxes, styled list markers, vertical indent guides
 - Autocomplete for `@mentions` and `#topics` ranked by usage frequency
 - Optional format bar for quick access to Bold, Italic, Code, Headings, Links
-- Inline image previews (Obsidian-style Live Preview)
+- Inline image previews
 
 ### Cross-Note Task Aggregation
 
-View all tasks from all notes in one place. Filter by person, topic, due date, or completion status. Save filters for quick access.
+View all tasks from every note in one place. Filter by person, topic, due date, or completion status. Save filters for quick access.
 
 <p align="center">
   <img src="https://github.com/daSkier/notis-releases/raw/main/screenshots/tasks-light.png" width="700" alt="Task aggregation across all notes">
@@ -63,7 +63,7 @@ View all tasks from all notes in one place. Filter by person, topic, due date, o
 
 ### Calendar Integration
 
-Connect your calendars (EventKit + Google Calendar API) and create meeting notes with one click. Events show attendees, meeting links, and link back to existing notes.
+Connect your calendars (EventKit via Apple's Calendar API + direct Google Calendar API) and create meeting notes with one click. Events show attendees, meeting links, and link back to existing notes.
 
 <p align="center">
   <img src="https://github.com/daSkier/notis-releases/raw/main/screenshots/calendar-light.png" width="700" alt="Calendar sidebar with events">
@@ -115,12 +115,6 @@ Full dark mode support with a consistent design across every panel.
 
 ---
 
-## Web App
-
-Notis is also available as a web app at **[notis.hotdish.dev](https://notis.hotdish.dev)**. Built with React, CodeMirror 6, and Cloudflare Workers, it provides the same core features — markdown editing, task aggregation, and calendar integration — accessible from any browser.
-
----
-
 ## Requirements
 
 - macOS 15.0 (Sequoia) or later
@@ -138,5 +132,5 @@ Updates are delivered automatically via Sparkle.
 ---
 
 <p align="center">
-  <sub>Built with SwiftUI, TextKit 2, GRDB, and too much coffee.</sub>
+  <sub>Built with SwiftUI, TextKit 2, GRDB, and too much tea.</sub>
 </p>
