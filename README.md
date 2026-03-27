@@ -5,7 +5,7 @@
 <h1 align="center">Notis</h1>
 
 <p align="center">
-  <strong>Markdown note-taking for professionals who need cross-note task visibility.</strong>
+  <strong>Markdown note-taking with cross-note task visibility.</strong>
 </p>
 
 <p align="center">
